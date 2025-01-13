@@ -1,0 +1,46 @@
+name: flutter_menu_makanan
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.7
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.0.0
+  path: ^1.8.0
+  image_picker: ^0.8.7+3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.2  # Diperbaiki: pastikan formatnya sejajar
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"  # Path ke ikon aplikasi
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/tomat.jpg
+    - assets/images/bayam.jpeg
+    - assets/images/cabai_rawit.jpg
+    - assets/images/kangkung.jpg
+    - assets/images/mengkreng.jpg
+    - assets/images/sawi.jpg
+    - assets/images/terong.jpeg
+    - assets/images/Logo.png
+    - assets/images/brokoli.jpeg
+    - assets/images/bawangmerah.jpg
+    - assets/images/bawangputih.jpg
